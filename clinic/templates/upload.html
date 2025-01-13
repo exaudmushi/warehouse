@@ -1,0 +1,28 @@
+{% extends "base_generic.html" %}
+
+{% block  app_content %}
+  <h4>Facility Upload file</h4>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+        <h2>Upload a File</h2>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="btn btn-primary" type="submit">Upload</button>
+        </form>
+      </div>
+    </div>
+
+ 
+  {% comment %} <h2>Verification Results</h2>
+  {% if results %}
+      <ul>
+          {% for result in results %}
+              <li>{{ result }}</li>
+          {% endfor %}
+      </ul>
+  {% else %}
+      <p>No verification results to display.</p>
+  {% endif %} {% endcomment %}
+{% endblock %}

@@ -1,69 +1,96 @@
 import os
 import json
+import pyodbc
+import base64
 from datetime import datetime
-from .database_importer import DatabaseImporter
+import concurrent.futures
 
+class JsonConverter:
+    def __init__(self, all_tables_data, output_folder,weekly_file):
+        """
+        Initializes the JsonConverter with table data and output filename.
+        
+        :param all_tables_data: Dictionary containing table names as keys and list of row dictionaries as values.
+        :param output_filename: Name of the output JSON file.
+        """
+        self.all_tables_data = all_tables_data
+        self.output_folder = output_folder
+        self.weekly_file = weekly_file
 
-class JSONDataWriter:
-    def __init__(self, all_tables_data, directory='facility_json_data'):
-        self.all_tables_data = all_tables_data  # This is expected to be a dictionary of table names and their data
-        self.directory = directory
-        # Ensure the directory exists
-        os.makedirs(self.directory, exist_ok=True)
-
-    # Custom datetime serializer
     def datetime_serializer(self, obj):
         if isinstance(obj, datetime):
             return obj.isoformat()  # Convert datetime to string in ISO format
         raise TypeError(f"Type {type(obj)} not serializable")
 
-    # Method to add HRFCode to each row of the data
-    def add_hrf_code_to_data(self, data, hrf_code):
-        """ Adds the HRFCode to each row in the data. """
-        for row in data:
-            row['HRFCode'] = hrf_code
-        return data
 
-    # Method to process (serialize) each table's data
-    def process_table_data(self, table_name, hrf_code, data):
-        # Add HRFCode to each row of data
-        data_with_hrf_code = self.add_hrf_code_to_data(data, hrf_code)
+    def convert_mdb_to_json(self, mdb_path):
+        # Ensure the 'converted_json' folder exists at the root of the project
+        converted_json_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'converted_json')
+        if not os.path.exists(converted_json_dir):
+            os.makedirs(converted_json_dir)
         
-        # Convert the data to JSON with pretty print and custom datetime serializer
-        return {table_name: json.dumps(data_with_hrf_code, indent=4, default=self.datetime_serializer)}
-
-    def write_all_tables(self, hrf_code, facility_name,setupDB):
-        # Generate the output path
-        output_path = os.path.join(self.directory, f"{facility_name}.json")
+        # Get all .mdb files in the directory
+        mdb_files = [f for f in os.listdir(mdb_path) if f.endswith('.mdb')]
         
-        try:
-            # Check if the file already exists
-            if os.path.exists(output_path):
-                print(f"File {output_path} already exists.")
-                # Optionally handle overwriting or skipping
-                overwrite = input("Do you want to overwrite it? (yes/no): ").strip().lower()
-                if overwrite != 'yes':
-                    print("Skipping the file write operation.")
-                    return
-
-            all_data = {}
-            for table_name, data in self.all_tables_data.items():
-                # Process data to include HRFCode and then convert to JSON
-                all_data[table_name] = json.loads(self.process_table_data(table_name, hrf_code, data)[table_name])
+        for mdb_file in mdb_files:
+            mdb_file_path = os.path.join(mdb_path, mdb_file)
             
-            # Import data into the database
-            importer = DatabaseImporter(setupDB, output_path)
-            importer.import_json_to_db()
+            # Connect to the .mdb file using pyodbc
+            conn = pyodbc.connect(f'DRIVER={{Microsoft Access Driver (*.mdb, *.accdb)}};DBQ={mdb_file_path};')
+            cursor = conn.cursor()
             
-            # Write data to JSON
-            with open(output_path, 'w', encoding='utf-8') as json_file:
-                json.dump(data, json_file, ensure_ascii=False, indent=4,default=self.datetime_serializer)
+            
+            # Iterate over all tables in the database and filter out system tables
+            cursor.tables()
+            tables = cursor.fetchall()
+            
+            # Filter out system tables that start with 'MSys'
+            user_tables = [table for table in tables if not table.table_name.startswith('MSys')]
+            
+            all_tables_data = {}  # Dictionary to store data from all tables
+            
+            # Get the current date to append
+            current_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 
-
-            print(f"Data successfully written to {output_path}")
-
-        except Exception as e:
-            print(f"An error occurred: {e}")
+            for table in user_tables:
+                table_name = table.table_name
+                
+                # Query the table and fetch data
+                cursor.execute(f"SELECT * FROM {table_name}")
+                columns = [column[0] for column in cursor.description]  # Extract column names
+                rows = cursor.fetchall()
+                
+                # Convert rows to a list of dictionaries
+                data = []
+                for row in rows:
+                    row_dict = {}
+                    for i in range(len(columns)):
+                        value = row[i]
+                        if isinstance(value, bytes):  # Check if the value is binary data (bytes)
+                            # Encode the bytes to base64 string
+                            value = base64.b64encode(value).decode('utf-8')
+                        row_dict[columns[i]] = value
+                                 # Query the table and fetch data
     
+                    # Add the current date to each row's data
+                    row_dict["date_converted"] = current_date
+                    row_dict["facility_name"] = mdb_file
+                    row_dict["week"] = self.weekly_file
+                    data.append(row_dict)
+                
+                # Add the table data to the all_tables_data dictionary
+                all_tables_data[table_name] = data
+            
+            # Create a single JSON file for the entire .mdb file with all tables
+            json_filename = f"{mdb_file}.json"
+            json_filepath = os.path.join(converted_json_dir, json_filename)
+            
+            with open(json_filepath, 'w') as json_file:
+                json.dump(all_tables_data, json_file, indent=4, default=self.datetime_serializer)
+            
+            print(f"Converted all tables in {mdb_file} to a single JSON file at {json_filepath}")
+            
+            # Close the connection to the .mdb file
+            conn.close()
 

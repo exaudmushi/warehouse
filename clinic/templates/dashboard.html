@@ -1,77 +1,410 @@
 {% extends "base_generic.html" %}
 
-{% block  app_content %}
-  <h4>Dashboard</h4>
-  <hr>
-    <div class="row">
-        <div class="col-md-3 col-xl-3">
-            <div class="card bg-c-blue order-card">
-                <div class="card-block">
-                    <h6 class="m-b-20">TX_TB</h6>
-                    <h2 class="text-right"><i class="fa fa-cart-plus f-left"></i><span></span></h2>
-                    {% comment %} <p class="m-b-0"><span class="f-right"></span></p> {% endcomment %}
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3 col-xl-3">
-            <div class="card bg-c-green order-card">
-                <div class="card-block">
-                    <h6 class="m-b-20">TX_RTT</h6>
-                    <h2 class="text-right"><i class="fa fa-rocket f-left"></i><span></span></h2>
-                    {% comment %} <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> {% endcomment %}
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3 col-xl-3">
-            <div class="card bg-c-yellow order-card">
-                <div class="card-block">
-                    <h6 class="m-b-20">TX_ML</h6>
-                    <h2 class="text-right"><i class="fa fa-refresh f-left"></i><span></span></h2>
-                    {% comment %} <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> {% endcomment %}
-                </div>
-            </div>
-        </div>
-        
-        <div class="col-md-3 col-xl-3">
-            <div class="card bg-c-pink order-card">
-                <div class="card-block">
-                    <h6 class="m-b-20">TX CURR</h6>
-                    <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span></span></h2>
-                    {% comment %} <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> {% endcomment %}
-                </div>
-            </div>
-        </div>
+{% block app_content %}
+  {% for userinfo in results.users %}
 
-        <div class="col-md-3 col-xl-3">
-          <div class="card bg-c-purple order-card">
-              <div class="card-block">
-                  <h6 class="m-b-20">TX_PVLS</h6>
-                  <h2 class="text-right"><i class="fa fa-credit-card f-left"></i><span></span></h2>
-                  {% comment %} <p class="m-b-0">Completed Orders<span class="f-right">351</span></p> {% endcomment %}
-              </div>
-          </div>
+  <div class="row align-items-center">
+    <!-- Welcome Message -->
+    <div class="col-md-6">
+      
+      <h5>Welcome, {{userinfo.displayName}}</b></h5>
+    </div>
+    <!-- Filtering Inputs -->
+    <div class="col-md-6">
+      <div class="d-flex justify-content-between align-items-center">
+        <!-- Date Range Filter -->
+        <div class="me-3">
+          <label for="startDate" class="form-label">Start Date:</label>
+          <input type="date" id="startDate" class="form-control form-control-sm" />
+        </div>
+        <div class="me-3">
+          <label for="endDate" class="form-label">End Date:</label>
+          <input type="date" id="endDate" class="form-control form-control-sm" />
+        </div>
+        <!-- Metric Filter Dropdown -->
+        <div>
+          <label for="metricFilter" class="form-label">Organisation Units:</label><br>
+          <select id="metricFilter" class="form-select form-select-sm">
+           
+          </select>
+        </div>
+        <!-- Apply Filter Button -->
+        <button id="applyFilters" class="btn btn-primary btn-sm ms-3">Filter</button>
       </div>
-	</div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-blue order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b>TX_TB</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-green order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b>TX_RTT</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-yellow order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b>TX_ML</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-pink order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b>TX_CURR</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-purple order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b></b>TX_PVLS</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-magenta order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b></b>TX_NEW</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
   <div>
     <div class="row">
       <div class="col-md-6">
         <h4>Viral Load Suppression</h4>
         <hr>
-     </div>
-     <div class="col-md-6">
-      <h4>TX_CURR Monitoring</h4>
-      <hr>
-      <canvas id="myChart" width="400" height="200"></canvas>
+        <canvas id="viralLoadChart" width="400" height="200"></canvas>
+      </div>
+      <div class="col-md-6">
+        <h4>TX_CURR Monitoring</h4>
+        <hr>
+        <canvas id="txCurrChart" width="400" height="200"></canvas>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h4>TX PVLS</h4>
+        <hr>
+        <canvas id="txPvlsChart" width="800" height="200"></canvas>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-    <h4>TX PVLS</h4>
-    <hr>
-    
-   </div>
-</div>
-</div>
+  {% endfor %}
+  <!-- Session Timeout Modal -->
+  <div class="modal fade" id="sessionTimeoutModal" tabindex="-1" aria-labelledby="sessionTimeoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="sessionTimeoutModalLabel">Session Expired</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Your session has expired. You will be redirected to the login page.
+              </div>
+          </div>
+      </div>
+  </div>
+ <!-- Session Timeout Modal Ends -->
+
+  <!-- Include Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+       // Function to set session timeout
+    async function  setSessionTimeout() {
+        // expiresAt is a Unix timestamp in seconds
+        const expirationTime = Math.floor(Date.now() / 1000) + (30 * 60) // Session is active for 30 minutes
+        const currentTime = Date.now();
+        const timeUntilExpiration = expirationTime - currentTime;
+
+        if (timeUntilExpiration > 0) {
+            setTimeout(() => {
+                // Show session timeout modal
+                const timeoutModal = new bootstrap.Modal(document.getElementById('sessionTimeoutModal'));
+                timeoutModal.show();
+
+                // Redirect to login page after 3 seconds
+                setTimeout(() => {
+                    timeoutModal.hide();
+                    window.location.href = "{% url 'home' %}"; // Adjust to your login URL name
+                }, 3000);
+            }, timeUntilExpiration);
+        }
+    }
+    setSessionTimeout()
+    // Global variables to store chart instances
+    let viralLoadChartInstance, txCurrChartInstance, txPvlsChartInstance;
+
+    //     // Construct query string for filters
+    //     const queryParams = new URLSearchParams(filters).toString();
+    //     const metricsUrl = queryParams ? `/api/metrics/?${queryParams}` : '/api/metrics/';
+
+    //     // Fetch metrics data
+    //     const metricsResponse = await fetch(metricsUrl, {
+    //       method: 'GET',
+    //       headers: {
+    //         'Authorization': `Bearer ${token}`,
+    //         'Content-Type': 'application/json'
+    //       }
+    //     });
+
+    //     if (!metricsResponse.ok) {
+    //       throw new Error('Failed to fetch metrics');
+    //     }
+
+    //     const metricsData = await metricsResponse.json();
+    //     // Update DOM with metrics
+    //     document.getElementById('tx_tb').textContent = metricsData.tx_tb || 'N/A';
+    //     document.getElementById('tx_rtt').textContent = metricsData.tx_rtt || 'N/A';
+    //     document.getElementById('tx_ml').textContent = metricsData.tx_ml || 'N/A';
+    //     document.getElementById('tx_curr').textContent = metricsData.tx_curr || 'N/A';
+    //     document.getElementById('tx_pvls').textContent = metricsData.tx_pvls || 'N/A';
+
+    //     // Fetch Viral Load Suppression chart data
+    //     const viralLoadUrl = queryParams ? `/api/viral-load-suppression/?${queryParams}` : '/api/viral-load-suppression/';
+    //     const viralLoadResponse = await fetch(viralLoadUrl, {
+    //       method: 'GET',
+    //       headers: {
+    //         'Authorization': `Bearer ${token}`,
+    //         'Content-Type': 'application/json'
+    //       }
+    //     });
+
+    //     if (!viralLoadResponse.ok) {
+    //       throw new Error('Failed to fetch viral load data');
+    //     }
+
+    //     const viralLoadData = await viralLoadResponse.json();
+    //     // Destroy previous chart instance if it exists
+    //     if (viralLoadChartInstance) {
+    //       viralLoadChartInstance.destroy();
+    //     }
+    //     // Render Viral Load Suppression chart
+    //     viralLoadChartInstance = new Chart(document.getElementById('viralLoadChart'), {
+    //       type: 'line',
+    //       data: {
+    //         labels: viralLoadData.labels || ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+    //         datasets: [{
+    //           label: 'Viral Load Suppression (%)',
+    //           data: viralLoadData.values || [65, 70, 68, 72, 75],
+    //           borderColor: 'rgba(75, 192, 192, 1)',
+    //           fill: false
+    //         }]
+    //       },
+    //       options: {
+    //         responsive: true,
+    //         scales: {
+    //           y: {
+    //             beginAtZero: true,
+    //             max: 100
+    //           }
+    //         }
+    //       }
+    //     });
+
+    //     // Fetch TX_CURR Monitoring chart data
+    //     const txCurrUrl = queryParams ? `/api/tx-curr-monitoring/?${queryParams}` : '/api/tx-curr-monitoring/';
+    //     const txCurrResponse = await fetch(txCurrUrl, {
+    //       method: 'GET',
+    //       headers: {
+    //         'Authorization': `Bearer ${token}`,
+    //         'Content-Type': 'application/json'
+    //       }
+    //     });
+
+    //     if (!txCurrResponse.ok) {
+    //       throw new Error('Failed to fetch TX_CURR data');
+    //     }
+
+    //     const txCurrData = await txCurrResponse.json();
+    //     // Destroy previous chart instance if it exists
+    //     if (txCurrChartInstance) {
+    //       txCurrChartInstance.destroy();
+    //     }
+    //     // Render TX_CURR Monitoring chart
+    //     txCurrChartInstance = new Chart(document.getElementById('txCurrChart'), {
+    //       type: 'bar',
+    //       data: {
+    //         labels: txCurrData.labels || ['Q1', 'Q2', 'Q3', 'Q4'],
+    //         datasets: [{
+    //           label: 'TX_CURR Patients',
+    //           data: txCurrData.values || [500, 600, 550, 620],
+    //           backgroundColor: 'rgba(255, 99, 132, 0.5)'
+    //         }]
+    //       },
+    //       options: {
+    //         responsive: true,
+    //         scales: {
+    //           y: {
+    //             beginAtZero: true
+    //           }
+    //         }
+    //       }
+    //     });
+
+    //     // Fetch TX_PVLS chart data
+    //     const txPvlsUrl = queryParams ? `/api/tx-pvls/?${queryParams}` : '/api/tx-pvls/';
+    //     const txPvlsResponse = await fetch(txPvlsUrl, {
+    //       method: 'GET',
+    //       headers: {
+    //         'Authorization': `Bearer ${token}`,
+    //         'Content-Type': 'application/json'
+    //       }
+    //     });
+
+    //     if (!txPvlsResponse.ok) {
+    //       throw new Error('Failed to fetch TX_PVLS data');
+    //     }
+
+    //     const txPvlsData = await txPvlsResponse.json();
+    //     // Destroy previous chart instance if it exists
+    //     if (txPvlsChartInstance) {
+    //       txPvlsChartInstance.destroy();
+    //     }
+    //     // Render TX_PVLS chart
+    //     txPvlsChartInstance = new Chart(document.getElementById('txPvlsChart'), {
+    //       type: 'line',
+    //       data: {
+    //         labels: txPvlsData.labels || ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+    //         datasets: [{
+    //           label: 'TX_PVLS (%)',
+    //           data: txPvlsData.values || [80, 82, 85, 83, 87],
+    //           borderColor: 'rgba(153, 102, 255, 1)',
+    //           fill: false
+    //         }]
+    //       },
+    //       options: {
+    //         responsive: true,
+    //         scales: {
+    //           y: {
+    //             beginAtZero: true,
+    //             max: 100
+    //           }
+    //         }
+    //       }
+    //     });
+
+    //   } catch (error) {
+    //     console.error('Error fetching data:', error);
+    //     alert('Error fetching dashboard data. Please try again or log in.');
+    //     if (error.message.includes('401')) {
+    //       window.location.href = '/login/';
+    //     }
+    //   }
+    // }
+
+    // // Function to apply filters
+    // function applyFilters() {
+    //   const startDate = document.getElementById('startDate').value;
+    //   const endDate = document.getElementById('endDate').value;
+    //   const metric = document.getElementById('metricFilter').value;
+
+    //   const filters = {};
+    //   if (startDate) filters.start_date = startDate;
+    //   if (endDate) filters.end_date = endDate;
+    //   if (metric && metric !== 'all') filters.metric = metric;
+
+    //   // Fetch data with filters
+    //   getUserData(filters);
+    // }
+
+    // // Add event listener for the apply filters button
+    // document.getElementById('applyFilters').addEventListener('click', applyFilters);
+
+    // // Call the function when the page loads
+    // window.onload = () => getUserData();
+  </script>
 {% endblock %}

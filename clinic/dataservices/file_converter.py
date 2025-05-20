@@ -4,6 +4,8 @@ import pyodbc
 import base64
 from datetime import datetime
 import concurrent.futures
+import uuid
+import random
 
 class JsonConverter:
     def __init__(self, all_tables_data, output_folder,weekly_file):
@@ -38,11 +40,13 @@ class JsonConverter:
             # Connect to the .mdb file using pyodbc
             conn = pyodbc.connect(f'DRIVER={{Microsoft Access Driver (*.mdb, *.accdb)}};DBQ={mdb_file_path};')
             cursor = conn.cursor()
-            
+            cursor2 = conn.cursor()
             
             # Iterate over all tables in the database and filter out system tables
             cursor.tables()
+            cursor2.tables()
             tables = cursor.fetchall()
+            tables2 = cursor.fetchall()
             
             # Filter out system tables that start with 'MSys'
             user_tables = [table for table in tables if not table.table_name.startswith('MSys')]
@@ -52,7 +56,10 @@ class JsonConverter:
             # Get the current date to append
             current_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
+            uu_id = uuid.uuid4()
 
+            
+    
             for table in user_tables:
                 table_name = table.table_name
                 
@@ -61,9 +68,17 @@ class JsonConverter:
                 columns = [column[0] for column in cursor.description]  # Extract column names
                 rows = cursor.fetchall()
                 
+
+                 # Query the table and fetch data
+                cursor2.execute(f"SELECT * FROM tblConfig")
+                result = cursor2.fetchall()  # Fetch the first row
+                # Store the result in the session variable
+                hrfFacilityCode = result[0][3] if result else None
                 # Convert rows to a list of dictionaries
+              
                 data = []
                 for row in rows:
+                    unique_row_id  = str(random.randint(111, 9999))
                     row_dict = {}
                     for i in range(len(columns)):
                         value = row[i]
@@ -74,9 +89,11 @@ class JsonConverter:
                                  # Query the table and fetch data
     
                     # Add the current date to each row's data
+                    row_dict["r_id"] = self.weekly_file +"-"+ hrfFacilityCode
                     row_dict["date_converted"] = current_date
-                    row_dict["facility_name"] = mdb_file
-                    row_dict["week"] = self.weekly_file
+                    row_dict["facility_name"] = hrfFacilityCode
+                    row_dict["token"] =  str(uu_id)
+
                     data.append(row_dict)
                 
                 # Add the table data to the all_tables_data dictionary
@@ -88,7 +105,7 @@ class JsonConverter:
             
             with open(json_filepath, 'w') as json_file:
                 json.dump(all_tables_data, json_file, indent=4, default=self.datetime_serializer)
-            
+           
             print(f"Converted all tables in {mdb_file} to a single JSON file at {json_filepath}")
             
             # Close the connection to the .mdb file

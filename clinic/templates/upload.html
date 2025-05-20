@@ -1,6 +1,11 @@
 {% extends "base_generic.html" %}
 
 {% block  app_content %}
+  <style>
+      body { font-family: Arial, sans-serif; margin: 50px; }
+      .form-container { max-width: 500px; }
+      .error { color: red; }
+  </style>
   <h4>Facility Upload file</h4>
   <hr>
   <div class="row">
@@ -8,9 +13,16 @@
         <h2>Upload a File</h2>
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ form.as_p }}
-            <button class="btn btn-primary" type="submit">Upload</button>
+            <input type="hidden" name="token" value="{{ token }}">
+            <p>
+                <label for="file">Select ZIP file:</label><br>
+                <input type="file" name="file" accept=".zip" required>
+            </p>
+            <button type="submit">Upload</button>
         </form>
+        {% if form.errors %}
+            <p class="error">{{ form.errors }}</p>
+        {% endif %}
       </div>
     </div>
 

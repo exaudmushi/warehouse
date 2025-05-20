@@ -1,0 +1,19 @@
+{% extends "../base_admin.html" %}
+
+{% block  admin_app_content %}
+
+    <h1>Facilities</h1>
+    <a href="{% url 'clinic:facility-create' %}">Add New Facility</a>
+    <ul>
+    {% for facility in facilities %}
+        <li>
+            <a href="{% url 'clinic:facility-detail' facility.id %}">{{ facility.name }} - {{ facility.ou }}</a>
+            <a href="{% url 'clinic:facility-update' facility.id %}">Edit</a>
+            <a href="{% url 'clinic:facility-delete' facility.id %}">Delete</a>
+        </li>
+    {% empty %}
+        <li>No facilities found.</li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}

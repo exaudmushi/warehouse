@@ -3,9 +3,7 @@
 <!DOCTYPE html>
 <html>
 {% load static %}
-<link href="{% static 'fontawesomefree/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
-<link href="{% static 'fontawesomefree/css/brands.css' %}" rel="stylesheet" type="text/css">
-<link href="{% static 'fontawesomefree/css/solid.css' %}" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <style>
 
@@ -30,6 +28,10 @@
     }
     .bg-c-purple {
         background: linear-gradient(45deg,#9F2B68,#BF40BF);
+    } 
+
+    .bg-c-magenta {
+        background: linear-gradient(45deg,#808080,#dcdcdc);
     } 
     
     .card {
@@ -59,11 +61,10 @@
     }
 
 </style>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="{% url 'dashboard' %}">MULTI CLINIC ANALYSIS</a>
+        <a class="navbar-brand" href="{% url 'clinic:dashboard' %}">MULTI CLINIC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -71,26 +72,42 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'dashboard'%}">Dashboard</a>
+              <a class="nav-link" href="{% url 'clinic:dashboard' %}">Dashboard</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="{% url 'clinic:app-admin' %}">Admin</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                  
+                 Reports 
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href=""></a>
-                  <a class="dropdown-item" href=""></a>
-                  <a class="dropdown-item" href=""></a>
+                  <a class="dropdown-item" href="">Continuity of Treatment</a>
+                  <a class="dropdown-item" href="">HTS</a>
+                  <a class="dropdown-item" href="">IIT</a>
+                  <a class="dropdown-item" href="">PMTCT</a>
+                  <a class="dropdown-item" href="">CECAP</a>
+                  <a class="dropdown-item" href="">VL and VLS</a>
+                  <a class="dropdown-item" href="">EAC/Saturday Clinic</a>
                 </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'upload_and_verify'%}">File Upload</a>
+              <a class="nav-link" href="#">Data Upload</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          <div class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                 Account 
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="{% url 'clinic:user-profile' %}">Profile</a>
+                  <a class="dropdown-item" href="{% url 'clinic:about' %}">About</a>
+                  <a class="dropdown-item" href="{% url 'auth_service:logout' %}">Logout</a>
+                </div>
+            </li>
+          </ul>
         </div>
       </nav>
       <div class="container">

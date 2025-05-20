@@ -9,9 +9,9 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-
+import os
 from pathlib import Path
-
+from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -31,16 +31,20 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',
+    'auth_service',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'clinic'
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,10 +56,58 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'multi_clinic.urls'
 
+
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:8000",
+    "http://localhost:8000",
+
+]
+
+CORS_ALLOW_HEADERS = ["Content-Type","Accept", "Accept-encoding","Origin","Authorization"]
+
+# Allow GET, POST, OPTIONS methods
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'DELETE',
+    'PUT',
+    'PATCH'
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [],
+    'DEFAULT_PERMISSION_CLASSES': [],
+}
+
+
+# DHIS2 OAuth2 Configuration
+CLIENT_ID = 'programmers_tpdf@hjfmri.or.tz'  # Replace with your DHIS2 client ID
+CLIENT_SECRET = '19cb0b68e-2f96-8b03-b371-c9f6a5da53a'  # Replace with your DHIS2 client secret
+AUTHORIZATION_URL = 'https://play.mhrpimpact.org/uaa/oauth/authorize'
+TOKEN_URL = 'https://play.mhrpimpact.org/uaa/oauth/token'  # Updated endpoint
+USERINFO_URL = 'https://play.mhrpimpact.org/api/me'
+REDIRECT_URI = 'http://localhost:8000/clinic/dashboard'
+BASE_URL = "https://play.mhrpimpact.org/api"
+
+# Session settings for state validation
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
+
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
+MEDIA_URL = '/uploads/'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+AUTH_SERVICE_URL = config('AUTH_SERVICE_URL', default='http://auth-service:8000')
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates','dataservices'],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,7 +129,7 @@ WSGI_APPLICATION = 'multi_clinic.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'clinic_db_bk',
+        'NAME': 'warehouse',
         'USER': 'postgres',
         'PASSWORD': '',
         'HOST': 'localhost',
@@ -85,16 +137,14 @@ DATABASES = {
     }
 }
 
-DATABASES_VARIABLE = {
-
-        
-        'dbname': 'clinic_db_bk',
-        'user': 'postgres',
-        'password': '',
-        'host': 'localhost',
-        'port':5432,
-    
+POSTGRES_SPARK_CONFIG = {
+    "jdbc_url": f"jdbc:postgresql://localhost:5432/clinic_db_bk",
+    "user": "postgres",
+    "password": "",
+    "driver": "org.postgresql.Driver",
+    "jdbc_driver_path":os.path.join(BASE_DIR, "clinic\dataservices", "postgresql-connector.jar")
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
@@ -136,3 +186,34 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Celery configuration
+CELERY_BROKER_URL = 'redis://redis:6379/0'
+CELERY_RESULT_BACKEND = 'redis://redis:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+
+
+# Logging Configuration
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': os.path.join(BASE_DIR, 'debug.log'),
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}

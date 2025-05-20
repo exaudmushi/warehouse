@@ -3,13 +3,7 @@ from django.utils.timezone import now
 from datetime import timedelta
 from cryptography.fernet import Fernet
 import json
-
-class HRFCodeFacility(models.Model):
-    hrf_code = models.CharField(max_length=20, unique=True)
-    facility_name = models.CharField(max_length=255)
-
-    def __str__(self):
-        return f"{self.facility_name} ({self.hrf_code})"
+import uuid
 
 
 class DataFileUpload(models.Model):
@@ -22,13 +16,15 @@ class DataFileUpload(models.Model):
     def __str__(self):
         return f"{self.facility_name} - Uploaded on {self.time_upload}"
 
-
-class FacilityEncryptedData(models.Model):
-    facility_name = models.CharField(max_length=255)
-    facility_biom = models.CharField(max_length=255, default="")
-    encrypted_file = models.FileField(upload_to='encrypted_data/')
-    encryption_key = models.CharField(max_length=255, blank=True, null=True)  # You can store the encryption key securely
+class Facility(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    name = models.CharField(max_length=100, unique=True)
+    ou = models.CharField(max_length=100, unique=True)
     created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"Encrypted Data for {self.table_name} - {self.created_at}"
+        return f"{self.name} - {self.ou}"
+
+    class Meta:
+        verbose_name_plural = "Facilities"

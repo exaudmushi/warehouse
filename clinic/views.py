@@ -1,208 +1,296 @@
-from django.views.generic import FormView, TemplateView
-from django.shortcuts import redirect
-from django.urls import reverse_lazy
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from django.views.generic import TemplateView
+from django.shortcuts import render
+import requests
 import os
 import json
-import datetime
-from .dataservices import file_converter, servicefacility
 import zipfile
-from django.shortcuts import render
-from django.core.files.storage import FileSystemStorage
+import logging
 from django.conf import settings
-from .forms import MDBFileUploadForm
+from django.core.files.storage import FileSystemStorage
+from decouple import config
+from .serializers import FileUploadSerializer, FileProcessingSerializer
+from .tasks import process_file
+from celery.result import AsyncResult
+from clinic.dataservices import servicefacility, file_converter
+from clinic.dataservices.management.commands.data_importer import Command
+import base64
+from clinic.metrics import MetricsData
+from .serializers import GetParameters
 
-def datetime_serializer(obj):
-    """
-    Custom serializer for datetime and date objects.
-    Converts datetime and date objects to ISO 8601 format strings.
-    """
-    if isinstance(obj, (datetime.datetime, datetime.date)):
-        return obj.isoformat()  # Convert datetime or date to string in ISO 8601 format
-    raise TypeError(f"Type {type(obj)} not serializable")
+logger = logging.getLogger(__name__)
 
-# Create your views here.
-class DashboardView(TemplateView):
+class AppAdminView(TemplateView, APIView):
+    template_name = 'admin/home.html'
+    
+    def get(self, request, *args, **kwargs):
+    
+        token = request.session['app_token']
+       
+        username = request.session['username']
+
+        try:
+           response = MetricsData.fetch_user_info(self, token, username)
+           context = {
+               'results':response
+           }
+        
+
+        except requests.exceptions.RequestException as e:
+            logger.error(f"DHIS2 connection failed: {e}")
+            return Response({'error': 'DHIS2 unreachable'}, status=503)
+    
+        return render(request, self.template_name,context=context)
+    
+
+class DashboardView(TemplateView, APIView):
+    """
+    Renders upload form (GET) and handles file upload (POST).
+    """
     template_name = 'dashboard.html'
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        # Add your custom context variables here
-        return context
-
-class DataUplodResponse(TemplateView):
-    template_name = "successsful.html"
+    def get(self, request, *args, **kwargs):
     
-    def get_context_data(self, **kwargs):
-        """Add verification results to the context."""
-        context = super().get_context_data(**kwargs)
-        #context['results'] = self.verify_all_files()
-        return context
-    
-    
-class MDBFileUploadAndVerifyView(FormView,TemplateView):
-    template_name = 'upload.html'
-    success_url = reverse_lazy('dashboard')  # Redirect after successful upload
-    form_class = MDBFileUploadForm
-    def get_context_data(self, **kwargs):
-        """Add verification results to the context."""
-        context = super().get_context_data(**kwargs)
+        token = request.session['app_token']
        
-        return context
+        username = request.session['username']
 
-    def form_valid(self, form):
-        """Handle valid file uploads."""
-        uploaded_file = self.request.FILES['file']
-        directory = 'uploaded_files'
-        os.makedirs(directory, exist_ok=True)
-        file_path = os.path.join(directory, uploaded_file.name)
+        try:
+           response = MetricsData.fetch_user_info(self, token, username)
+           context = {
+               'results':response
+           }
+        
+
+        except requests.exceptions.RequestException as e:
+            logger.error(f"DHIS2 connection failed: {e}")
+            return Response({'error': 'DHIS2 unreachable'}, status=503)
+    
+        return render(request, self.template_name,context=context)
+
+class ProfileView(TemplateView, APIView):
+    template_name = 'profile/profile.html'
+
+    def get(self, request, *args, **kwargs):
+     
+        token = request.session['app_token']
+
+        username = request.session['username']
+
+        try:
+           response = MetricsData.fetch_user_info(self, token, username)
+           context = {
+               'results':response
+           }
+        except requests.exceptions.RequestException as e:
+                logger.error(f"DHIS2 connection failed: {e}")
+                return Response({'error': 'DHIS2 unreachable'}, status=503)
+
+        return render(request, self.template_name,context=context)
+    
+class AboutView(TemplateView, APIView):
+    template_name = 'profile/about.html'
+
+    def get(self, request, *args, **kwargs):
+     
+        return render(request, self.template_name)
+
+class DataPostingView(TemplateView, APIView):
+    """
+    Renders upload form (GET) and handles file upload (POST).
+    """
+    template_name = 'upload.html'
+
+    def get(self, request, *args, **kwargs):
+        # Render upload form
+        token = request.GET.get('token', '')  # Optional: Pass JWT via query param or session
+        
+        return render(request, self.template_name, {'token': token})
+
+    def post(self, request, *args, **kwargs):
+        # Validate request
+        serializer = FileUploadSerializer(data=request.data)
+        if not serializer.is_valid():
+            return render(request, self.template_name, {
+                'form': {'errors': serializer.errors},
+                'token': request.data.get('token', '')
+            })
+
+        # Extract and validate JWT
+        token = request.data.get('token') or request.headers.get('Authorization', '').replace('Bearer ', '')
+        if not token:
+            return render(request, self.template_name, {
+                'form': {'errors': {'token': ['Authorization token required']}},
+                'token': ''
+            })
+
+        auth_url = f"{config('AUTH_SERVICE_URL')}/api/validate-token/"
+        try:
+            auth_response = requests.post(auth_url, json={'token': token})
+            if auth_response.status_code != 200:
+                return render(request, self.template_name, {
+                    'form': {'errors': {'token': [auth_response.json().get('error', 'Invalid token')]}},
+                    'token': token
+                })
+            auth_data = auth_response.json()
+            logger.info(f"Token validated for user: {auth_data['payload']['username']}")
+        except requests.RequestException as e:
+            logger.error(f"Failed to validate token: {str(e)}")
+            return render(request, self.template_name, {
+                'form': {'errors': {'token': [f'Failed to validate token: {str(e)}']}},
+                'token': token
+            })
+
+        # Save uploaded file
+        uploaded_file = serializer.validated_data['file']
+        directory = os.path.join('uploaded_files')
+        os.makedirs(os.path.join(settings.MEDIA_ROOT, directory), exist_ok=True)
 
         uploaded_file_name = uploaded_file.name
-        format_name = servicefacility.HighlevelFunction
-        data_file = format_name.format_filename(uploaded_file_name)
-
-        # Save uploaded ZIP file
         fs = FileSystemStorage(location=settings.MEDIA_ROOT)
-        filename = fs.save(directory, uploaded_file) 
+        filename = fs.save(os.path.join(directory, uploaded_file_name), uploaded_file)
         file_path = os.path.join(settings.MEDIA_ROOT, filename)
-     
-        # Define the extraction path
-        extract_path = os.path.join(settings.MEDIA_ROOT, 'extracted_files')
+        logger.info(f"File {uploaded_file_name} saved to {file_path}")
 
-        # Ensure the extraction folder exists
-        os.makedirs(extract_path, exist_ok=True)
+        # Start asynchronous processing
+        task = process_file.delay(file_path, uploaded_file_name, auth_data['payload']['user_id'])
+        output_messages = [("info", "File upload accepted, processing started")]
 
-        # Extract the ZIP file
-        with zipfile.ZipFile(file_path, 'r') as zip_ref:
-            zip_ref.extractall(extract_path)
+        # Render success template
+        messages_json = [{"type": msg_type, "message": msg} for msg_type, msg in output_messages]
+        return render(request, 'successful.html', {
+            'messages': messages_json,
+            'task_id': task.id,
+            'file_path': file_path
+        })
 
+class FileProcessingView(APIView):
+    """
+    Synchronous endpoint for ZIP extraction and MDB-to-JSON conversion.
+    """
+    def post(self, request):
+        serializer = FileProcessingSerializer(data=request.data)
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-        all_tables_data = {}
-            # Process MDB files
-        json_data_process = file_converter.JsonConverter(all_tables_data,output_folder="converted_json",weekly_file=data_file)
-        absolute_path = os.path.abspath(extract_path)
-        clear_temp = servicefacility.HighlevelFunction
-        clear_temp.clear_temp_files()
-        json_data_process.convert_mdb_to_json(absolute_path + "\\" + data_file )
+        token = request.headers.get('Authorization', '').replace('Bearer ', '')
+        if not token:
+            return Response(
+                {'error': 'Authorization token required'},
+                status=status.HTTP_401_UNAUTHORIZED
+            )
 
-        
-        return redirect('successful') # Return file path or response
+        auth_url = f"{config('AUTH_SERVICE_URL')}/api/validate-token/"
+        try:
+            auth_response = requests.post(auth_url, json={'token': token})
+            if auth_response.status_code != 200:
+                return Response(auth_response.json(), status=status.HTTP_401_UNAUTHORIZED)
+            auth_data = auth_response.json()
+            logger.info(f"Token validated for user: {auth_data['payload']['username']}")
+        except requests.RequestException as e:
+            logger.error(f"Failed to validate token: {str(e)}")
+            return Response(
+                {'error': f'Failed to validate token: {str(e)}'},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE
+            )
 
+        file_path = serializer.validated_data['file_path']
+        file_name = os.path.basename(file_path)
+        output_messages = []
 
+        try:
+            extract_path = os.path.join(settings.MEDIA_ROOT, 'extracted_files')
+            os.makedirs(extract_path, exist_ok=True)
+            with zipfile.ZipFile(file_path, 'r') as zip_ref:
+                zip_ref.extractall(extract_path)
+            output_messages.append(("success", f"ZIP file extracted to {extract_path}"))
 
+            all_tables_data = {}
+            format_name = servicefacility.HighlevelFunction
+            data_file = format_name.format_filename(file_name)
+            json_data_process = file_converter.JsonConverter(
+                all_tables_data,
+                output_folder=os.path.join(settings.BASE_DIR, 'clinic', 'dataservices', 'converted_json'),
+                weekly_file=data_file
+            )
+            absolute_path = os.path.abspath(extract_path)
+            clear_temp = servicefacility.HighlevelFunction
+            clear_temp.clear_temp_files()
+            json_data_process.convert_mdb_to_json(absolute_path)
+            output_messages.append(("success", "MDB files converted to JSON"))
+        except Exception as e:
+            output_messages.append(("error", f"Error during processing: {str(e)}"))
+            logger.error(f"Processing failed for {file_name}: {str(e)}")
 
+        messages_json = [{"type": msg_type, "message": msg} for msg_type, msg in output_messages]
+        return Response(
+            {'messages': messages_json},
+            status=status.HTTP_200_OK if not any(msg['type'] == 'error' for msg in messages_json) else status.HTTP_400_BAD_REQUEST
+        )
 
+class DataImportView(APIView):
+    """
+    Synchronous endpoint for running import_json command.
+    """
+    def post(self, request):
+        token = request.headers.get('Authorization', '').replace('Bearer ', '')
+        if not token:
+            return Response(
+                {'error': 'Authorization token required'},
+                status=status.HTTP_401_UNAUTHORIZED
+            )
 
+        auth_url = f"{config('AUTH_SERVICE_URL')}/api/validate-token/"
+        try:
+            auth_response = requests.post(auth_url, json={'token': token})
+            if auth_response.status_code != 200:
+                return Response(auth_response.json(), status=status.HTTP_401_UNAUTHORIZED)
+            auth_data = auth_response.json()
+            logger.info(f"Token validated for user: {auth_data['payload']['username']}")
+        except requests.RequestException as e:
+            logger.error(f"Failed to validate token: {str(e)}")
+            return Response(
+                {'error': f'Failed to validate token: {str(e)}'},
+                status=status.HTTP_503_SERVICE_UNAVAILABLE
+            )
 
+        output_messages = []
+        try:
+            command = Command()
+            command.handle(silent=True)
+            output_messages.extend(command.get_output())
+            logger.info("import_json command executed")
+        except Exception as e:
+            output_messages.append(("error", f"Error during import: {str(e)}"))
+            logger.error(f"Import failed: {str(e)}")
 
+        messages_json = [{"type": msg_type, "message": msg} for msg_type, msg in output_messages]
+        return Response(
+            {'messages': messages_json},
+            status=status.HTTP_200_OK if not any(msg['type'] == 'error' for msg in messages_json) else status.HTTP_400_BAD_REQUEST
+        )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            #return JsonResponse({'message': 'File uploaded and extracted successfully!'})
-       
-            # #Read the content of the uploaded file
-            # for data_file in os.listdir(extreacted_file):
-            #     single_file_path = os.path.join(extreacted_file, data_file)
-            #     print(single_file_path)
-            #     #initiate the pydoc connector
-            #     #Try to connect to the database and close the connection
-            #     try:
-            #         # print(pyodbc.drivers())
-
-            #         conn = pyodbc.connect(f'Driver={{Microsoft Access Driver (*.mdb, *.accdb)}};Dbq={single_file_path};')
-
-            #         cursor = conn.cursor()
-
-
-                 
-            #        # Step 1: Retrieve all table names using cursor.tables()
-            #         cursor.tables()
-            #         tables = cursor.fetchall()
-                
-
-            #         # Filter out system tables (those whose names start with 'MSys')
-            #         user_tables = [table for table in tables if table.table_type == 'TABLE' and not table.table_name.startswith('MSys')]
-                    
-                    
-            #         # Print the number of tables and list the table names
-            #         print(f"table found {len(user_tables)} user tables:")
-            #         for table in user_tables:
-            #             print(table.table_name)  # This will print the name of each user table
-
-            #         # Initialize a dictionary to hold the data of all tables
-            #         all_tables_data = {}
-
-            #         # Step 2: Loop through each user table and fetch its data
-            #         for table in user_tables:
-            #             table_name = table.table_name
-                        
-                                           
-            #              # Query to get column names for the table
-            #             cursor.execute(f"SELECT * FROM [{table_name}]")
-            #             columns = [column[0] for column in cursor.description]  # Get column names
-
-            #             # Query to get data from each table
-            #             cursor.execute(f"SELECT * FROM [{table_name}]")
-            #             rows = cursor.fetchall()
-
-            #             # Convert the rows to a list of dictionaries (column names as keys)
-            #             table_data = [dict(zip(columns, row)) for row in rows]
-
-            #             # Store the table data in the dictionary
-            #             all_tables_data[table_name] = table_data
-                        
-        
-            #         #Adding HRFCode fr the facility
-            #         hrfCode = servicefacility.FacilityInfo.HRFCode(self,directory)
-            #         print(hrfCode)
-            #         # Create the writer instance and call the method to write to DB and JSON
-            #         writter = file_converter.JsonConverter(all_tables_data)
-
-            #         writter.convert_to_json()
-                  
-            #         #encryption_service.process_table_data(json_data, facility_code, facility_biom)
-
-
-                #     return redirect('successful')
-                #     # return HttpResponseRedirect({'valid': True, 'message': 'Data retrieved successfully'})
-                # except pyodbc.Error as e:
-                #     return JsonResponse({'valid': False, 'message': str(e)})
-
-                # finally:
-                #     if 'conn' in locals() and conn:
-                #         conn.close()
-                
-        # # Save file information to the database
-        # DataFileUpload.objects.create(
-        #     facility_name=uploaded_file.name.split('.')[0],
-        #     size=uploaded_file.size,
-        #     status=False
-        # )
-
-        # return super().form_valid(form)
-
-
+class TaskStatusView(APIView):
+    """
+    Checks the status of an asynchronous processing task.
+    """
+    def get(self, request, task_id):
+        task = AsyncResult(task_id)
+        if task.state == 'PENDING':
+            response = {'status': 'pending'}
+        elif task.state == 'SUCCESS':
+            response = {'status': 'success', 'result': task.result}
+            # Render template for web access
+            if request.GET.get('format') != 'json':
+                return render(request, 'successful.html', {
+                    'messages': task.result,
+                    'task_id': task_id,
+                    'file_path': ''  # Optional: Retrieve from database
+                })
+        elif task.state == 'FAILURE':
+            response = {'status': 'failed', 'error': str(task.result)}
+        else:
+            response = {'status': task.state}
+        return Response(response)

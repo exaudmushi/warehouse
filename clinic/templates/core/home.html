@@ -1,0 +1,56 @@
+{% extends "./base_admin.html" %}
+
+{% block  admin_app_content %}
+    <h1 class="text-center mb-4">Dashboard</h1>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <i class="fas fa-users"></i>
+                    <h5 class="card-title"><a href="#" style="color:#000">Users</a></h5>
+                    <p class="card-text">Manage user accounts and permissions</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <i class="fas fa-chart-line"></i>
+                    <h5 class="card-title"><a href="{% url 'clinic:dashboard'%}" style="color:#000">Analytics</a></h5>
+                    <p class="card-text">View performance metrics and trends</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <i class="fas fa-cog"></i>
+                    <h5 class="card-title"><a href="#" style="color:#000">Settings</a></h5>
+                    <p class="card-text">Configure system preferences</p>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <i class="fas fa-bell"></i>
+                    <h5 class="card-title"><a href="#" style="color:#000">Notifications</a></h5>
+                    <p class="card-text">Check recent alerts and updates</p>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <i class="fas fa-file-alt"></i>
+                    <h5 class="card-title"><a href="#" style="color:#000">Reports</a></h5>
+                    <p class="card-text">Generate and view detailed reports</p>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h5 class="card-title"><a href="#" style="color:#000">Security</a></h5>
+                    <p class="card-text">Manage security settings and logs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

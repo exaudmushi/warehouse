@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block  app_content %}
+    {% for userinfo in results.users %}
+        <h2>About Mukti Clinic Dat Portal </h2>
+        <hr>
+        <p>Apps Name: <b>{{userinfo.displayName}}</b></p>
+        <p>Version<b>{{userinfo.id}}</b></p>
+        <p>Description :<b> ...</b></p>
+        <p><a href="{% url 'clinic:dashboard' %}">Back</a></p>
+       
+    {% endfor %}
+{% endblock %}

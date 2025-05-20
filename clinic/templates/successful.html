@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block  app_content %}
+  <h4>UPLOAD STATUS</h4>
+  <hr>
+    <h2>Upload Processing</h2>
+    <p>File upload accepted. Processing started.</p>
+    <p><strong>Task ID:</strong> {{ task_id }}</p>
+    <p><strong>File Path:</strong> {{ file_path }}</p>
+    <h3>Messages:</h3>
+    <div>
+        {% for message in messages %}
+            <p class="message {{ message.type }}">{{ message.message }}</p>
+        {% endfor %}
+    </div>
+    <p><a href="{% url 'data-posting' %}">Upload another file</a></p>
+    <p><a href="{% url 'task-status' task_id=task_id %}">Check task status</a></p>
+{% endblock %}

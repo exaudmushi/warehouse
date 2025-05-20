@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block  app_content %}
+    {% for userinfo in results.users %}
+        <h2>User Profile information</h2>
+        <hr>
+        <p>Full Name : <b>{{userinfo.displayName}}</b></p>
+        <p>ID : <b>{{userinfo.id}}</b></p>
+        <p>Application version : <b>1.0</b></p>
+        <p><a href="{% url 'clinic:dashboard' %}">Back</a></p>
+        <p><a href="{% url 'auth_service:logout' %}">Logout</a></p>
+    {% endfor %}
+{% endblock %}

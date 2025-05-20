@@ -7332,3 +7332,18 @@ Traceback (most recent call last):
   File "C:\Users\user\Documents\GitHub\warehouse\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
     raise NoReverseMatch(msg)
 django.urls.exceptions.NoReverseMatch: Reverse for 'facility_list' not found. 'facility_list' is not a valid view function or pattern name.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117

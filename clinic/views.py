@@ -12,7 +12,6 @@ from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 from decouple import config
 from .serializers import FileUploadSerializer, FileProcessingSerializer
-from .tasks import process_file
 from celery.result import AsyncResult
 from clinic.dataservices import servicefacility, file_converter
 from clinic.dataservices.management.commands.data_importer import Command

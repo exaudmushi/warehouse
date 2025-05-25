@@ -15,9 +15,8 @@ from .serializers import FileUploadSerializer, FileProcessingSerializer
 from celery.result import AsyncResult
 from clinic.dataservices import servicefacility, file_converter
 from clinic.dataservices.management.commands.data_importer import Command
-import base64
 from clinic.metrics import MetricsData
-from .serializers import GetParameters
+from .transformer import DataTransformer
 
 logger = logging.getLogger(__name__)
 
@@ -57,11 +56,35 @@ class DashboardView(TemplateView, APIView):
         username = request.session['username']
 
         try:
-           response = MetricsData.fetch_user_info(self, token, username)
-           context = {
-               'results':response
-           }
-        
+            response = MetricsData.fetch_user_info(self, token, username)
+            tx_curr = MetricsData.getTX_CURR(self, token)
+            pmtct = MetricsData.getTX_PMTCT_STAT(self, token)
+            pmtct_hei = MetricsData.getTX_PMTCT_HEI(self,token)
+            pmtct_eid = MetricsData.getTX_PMTCT_EID(self,token)
+            tx_curr_value = tx_curr['rows'][0][3]
+            pmtct_value = pmtct['rows'][0][3]
+
+            # Extract metadata
+            hei_metadata = pmtct_hei['metaData']['items']
+            eid_metadata = pmtct_eid['metaData']['items']
+            total_hei = 0
+            total_hei = int(sum(float(row[-1]) for row in pmtct_hei['rows']))
+            total_eid = int(sum(float(row[-1]) for row in pmtct_eid['rows']))
+            transformed_rows = []
+            #HEI data transformation
+            #transformed = DataTransformer.transformer(self,transformed_rows,hei_metadata,pmtct_hei)
+            transformed = DataTransformer.transformer(self,transformed_rows,eid_metadata,pmtct_eid)
+            # # Print transformed rows
+            for row in transformed:
+                print(f'TRANSFORMATION: ${row}')    
+
+            context = {
+                'results':response,
+                'tx_curr_data':tx_curr_value,
+                'pmtct_data':pmtct_value,
+                'pmtct_hei':total_hei,
+                'pmtct_eid':total_eid
+            }
 
         except requests.exceptions.RequestException as e:
             logger.error(f"DHIS2 connection failed: {e}")

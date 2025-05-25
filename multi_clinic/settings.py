@@ -93,6 +93,7 @@ USERINFO_URL = 'https://play.mhrpimpact.org/api/me'
 REDIRECT_URI = 'http://localhost:8000/clinic/dashboard'
 BASE_URL = "https://play.mhrpimpact.org/api"
 
+
 # Session settings for state validation
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 

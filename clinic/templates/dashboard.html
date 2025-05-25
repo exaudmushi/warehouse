@@ -1,8 +1,9 @@
 {% extends "base_generic.html" %}
 
 {% block app_content %}
-  {% for userinfo in results.users %}
 
+  {% for userinfo in results.users %}
+    
   <div class="row align-items-center">
     <!-- Welcome Message -->
     <div class="col-md-6">
@@ -38,7 +39,7 @@
     <div class="col-md-3 col-xl-3">
       <div class="card bg-c-blue order-card">
         <div class="card-block">
-          <h6 class="m-b-20"><center><b>TX_TB</b></center></h6>
+          <h6 class="m-b-20"><center><b>PMTCT_ANC1</b></center></h6>
           <table class="table table-responsive mx-3">
             <thead>
             </thead>
@@ -48,8 +49,8 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td><b>{{ pmtct_data }}</b></td>
+                <td></td>
               </tr>
             </tbody>
           </table>
@@ -59,7 +60,7 @@
     <div class="col-md-3 col-xl-3">
       <div class="card bg-c-green order-card">
         <div class="card-block">
-          <h6 class="m-b-20"><center><b>TX_RTT</b></center></h6>
+          <h6 class="m-b-20"><center><b>PMTCT_HEI</b></center></h6>
           <table class="table table-responsive mx-3">
             <thead>
             </thead>
@@ -69,8 +70,8 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td><b>{{ pmtct_hei }}</b></td>
+                <td></td>
               </tr>
             </tbody>
           </table>
@@ -80,7 +81,7 @@
     <div class="col-md-3 col-xl-3">
       <div class="card bg-c-yellow order-card">
         <div class="card-block">
-          <h6 class="m-b-20"><center><b>TX_ML</b></center></h6>
+          <h6 class="m-b-20"><center><b>PMTCT_EID</b></center></h6>
           <table class="table table-responsive mx-3">
             <thead>
             </thead>
@@ -90,8 +91,8 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td><b>{{pmtct_eid}}</b></td>
+                <td></td>
               </tr>
             </tbody>
           </table>
@@ -111,14 +112,16 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td><b>{{ tx_curr_data }}</b></td>
+                <td></td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
     </div>
+    </div>
+    <div class="row">
     <div class="col-md-3 col-xl-3">
       <div class="card bg-c-purple order-card">
         <div class="card-block">
@@ -132,8 +135,8 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td></td>
+                <td></td>
               </tr>
             </tbody>
           </table>
@@ -143,7 +146,7 @@
     <div class="col-md-3 col-xl-3">
       <div class="card bg-c-magenta order-card">
         <div class="card-block">
-          <h6 class="m-b-20"><center><b></b>TX_NEW</b></center></h6>
+          <h6 class="m-b-20"><center><b></b>TX_RTT</b></center></h6>
           <table class="table table-responsive mx-3">
             <thead>
             </thead>
@@ -153,8 +156,50 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-magenta order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b></b>TX_ML</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+        <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-magenta order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b></b>CACX</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
               </tr>
             </tbody>
           </table>
@@ -225,186 +270,5 @@
         }
     }
     setSessionTimeout()
-    // Global variables to store chart instances
-    let viralLoadChartInstance, txCurrChartInstance, txPvlsChartInstance;
-
-    //     // Construct query string for filters
-    //     const queryParams = new URLSearchParams(filters).toString();
-    //     const metricsUrl = queryParams ? `/api/metrics/?${queryParams}` : '/api/metrics/';
-
-    //     // Fetch metrics data
-    //     const metricsResponse = await fetch(metricsUrl, {
-    //       method: 'GET',
-    //       headers: {
-    //         'Authorization': `Bearer ${token}`,
-    //         'Content-Type': 'application/json'
-    //       }
-    //     });
-
-    //     if (!metricsResponse.ok) {
-    //       throw new Error('Failed to fetch metrics');
-    //     }
-
-    //     const metricsData = await metricsResponse.json();
-    //     // Update DOM with metrics
-    //     document.getElementById('tx_tb').textContent = metricsData.tx_tb || 'N/A';
-    //     document.getElementById('tx_rtt').textContent = metricsData.tx_rtt || 'N/A';
-    //     document.getElementById('tx_ml').textContent = metricsData.tx_ml || 'N/A';
-    //     document.getElementById('tx_curr').textContent = metricsData.tx_curr || 'N/A';
-    //     document.getElementById('tx_pvls').textContent = metricsData.tx_pvls || 'N/A';
-
-    //     // Fetch Viral Load Suppression chart data
-    //     const viralLoadUrl = queryParams ? `/api/viral-load-suppression/?${queryParams}` : '/api/viral-load-suppression/';
-    //     const viralLoadResponse = await fetch(viralLoadUrl, {
-    //       method: 'GET',
-    //       headers: {
-    //         'Authorization': `Bearer ${token}`,
-    //         'Content-Type': 'application/json'
-    //       }
-    //     });
-
-    //     if (!viralLoadResponse.ok) {
-    //       throw new Error('Failed to fetch viral load data');
-    //     }
-
-    //     const viralLoadData = await viralLoadResponse.json();
-    //     // Destroy previous chart instance if it exists
-    //     if (viralLoadChartInstance) {
-    //       viralLoadChartInstance.destroy();
-    //     }
-    //     // Render Viral Load Suppression chart
-    //     viralLoadChartInstance = new Chart(document.getElementById('viralLoadChart'), {
-    //       type: 'line',
-    //       data: {
-    //         labels: viralLoadData.labels || ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
-    //         datasets: [{
-    //           label: 'Viral Load Suppression (%)',
-    //           data: viralLoadData.values || [65, 70, 68, 72, 75],
-    //           borderColor: 'rgba(75, 192, 192, 1)',
-    //           fill: false
-    //         }]
-    //       },
-    //       options: {
-    //         responsive: true,
-    //         scales: {
-    //           y: {
-    //             beginAtZero: true,
-    //             max: 100
-    //           }
-    //         }
-    //       }
-    //     });
-
-    //     // Fetch TX_CURR Monitoring chart data
-    //     const txCurrUrl = queryParams ? `/api/tx-curr-monitoring/?${queryParams}` : '/api/tx-curr-monitoring/';
-    //     const txCurrResponse = await fetch(txCurrUrl, {
-    //       method: 'GET',
-    //       headers: {
-    //         'Authorization': `Bearer ${token}`,
-    //         'Content-Type': 'application/json'
-    //       }
-    //     });
-
-    //     if (!txCurrResponse.ok) {
-    //       throw new Error('Failed to fetch TX_CURR data');
-    //     }
-
-    //     const txCurrData = await txCurrResponse.json();
-    //     // Destroy previous chart instance if it exists
-    //     if (txCurrChartInstance) {
-    //       txCurrChartInstance.destroy();
-    //     }
-    //     // Render TX_CURR Monitoring chart
-    //     txCurrChartInstance = new Chart(document.getElementById('txCurrChart'), {
-    //       type: 'bar',
-    //       data: {
-    //         labels: txCurrData.labels || ['Q1', 'Q2', 'Q3', 'Q4'],
-    //         datasets: [{
-    //           label: 'TX_CURR Patients',
-    //           data: txCurrData.values || [500, 600, 550, 620],
-    //           backgroundColor: 'rgba(255, 99, 132, 0.5)'
-    //         }]
-    //       },
-    //       options: {
-    //         responsive: true,
-    //         scales: {
-    //           y: {
-    //             beginAtZero: true
-    //           }
-    //         }
-    //       }
-    //     });
-
-    //     // Fetch TX_PVLS chart data
-    //     const txPvlsUrl = queryParams ? `/api/tx-pvls/?${queryParams}` : '/api/tx-pvls/';
-    //     const txPvlsResponse = await fetch(txPvlsUrl, {
-    //       method: 'GET',
-    //       headers: {
-    //         'Authorization': `Bearer ${token}`,
-    //         'Content-Type': 'application/json'
-    //       }
-    //     });
-
-    //     if (!txPvlsResponse.ok) {
-    //       throw new Error('Failed to fetch TX_PVLS data');
-    //     }
-
-    //     const txPvlsData = await txPvlsResponse.json();
-    //     // Destroy previous chart instance if it exists
-    //     if (txPvlsChartInstance) {
-    //       txPvlsChartInstance.destroy();
-    //     }
-    //     // Render TX_PVLS chart
-    //     txPvlsChartInstance = new Chart(document.getElementById('txPvlsChart'), {
-    //       type: 'line',
-    //       data: {
-    //         labels: txPvlsData.labels || ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
-    //         datasets: [{
-    //           label: 'TX_PVLS (%)',
-    //           data: txPvlsData.values || [80, 82, 85, 83, 87],
-    //           borderColor: 'rgba(153, 102, 255, 1)',
-    //           fill: false
-    //         }]
-    //       },
-    //       options: {
-    //         responsive: true,
-    //         scales: {
-    //           y: {
-    //             beginAtZero: true,
-    //             max: 100
-    //           }
-    //         }
-    //       }
-    //     });
-
-    //   } catch (error) {
-    //     console.error('Error fetching data:', error);
-    //     alert('Error fetching dashboard data. Please try again or log in.');
-    //     if (error.message.includes('401')) {
-    //       window.location.href = '/login/';
-    //     }
-    //   }
-    // }
-
-    // // Function to apply filters
-    // function applyFilters() {
-    //   const startDate = document.getElementById('startDate').value;
-    //   const endDate = document.getElementById('endDate').value;
-    //   const metric = document.getElementById('metricFilter').value;
-
-    //   const filters = {};
-    //   if (startDate) filters.start_date = startDate;
-    //   if (endDate) filters.end_date = endDate;
-    //   if (metric && metric !== 'all') filters.metric = metric;
-
-    //   // Fetch data with filters
-    //   getUserData(filters);
-    // }
-
-    // // Add event listener for the apply filters button
-    // document.getElementById('applyFilters').addEventListener('click', applyFilters);
-
-    // // Call the function when the page loads
-    // window.onload = () => getUserData();
-  </script>
+    </script>
 {% endblock %}

@@ -17,6 +17,8 @@ from clinic.dataservices import servicefacility, file_converter
 from clinic.dataservices.management.commands.data_importer import Command
 from clinic.metrics import MetricsData
 from .transformer import DataTransformer
+from .calculated import VLPercentageCalculator
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -49,48 +51,85 @@ class DashboardView(TemplateView, APIView):
     """
     template_name = 'dashboard.html'
 
+    logger = logging.getLogger(__name__)
+
     def get(self, request, *args, **kwargs):
-    
+        # Record start time
+        start_time = time.time()
+        # Token
         token = request.session['app_token']
-       
         username = request.session['username']
 
         try:
             response = MetricsData.fetch_user_info(self, token, username)
             tx_curr = MetricsData.getTX_CURR(self, token)
             pmtct = MetricsData.getTX_PMTCT_STAT(self, token)
-            pmtct_hei = MetricsData.getTX_PMTCT_HEI(self,token)
-            pmtct_eid = MetricsData.getTX_PMTCT_EID(self,token)
+            pmtct_hei = MetricsData.getTX_PMTCT_HEI(self, token)
+            pmtct_eid = MetricsData.getTX_PMTCT_EID(self, token)
+            vlc = MetricsData.get_VLC(self, token)
+            vls = MetricsData.get_VLS(self, token)
+            tx_rtt = MetricsData.getTX_RTT(self, token)
+            tx_ml = MetricsData.getTX_ML(self, token)
             tx_curr_value = tx_curr['rows'][0][3]
             pmtct_value = pmtct['rows'][0][3]
+            vl_value = vlc['rows'][0][3]
 
             # Extract metadata
             hei_metadata = pmtct_hei['metaData']['items']
             eid_metadata = pmtct_eid['metaData']['items']
-            total_hei = 0
+            rtt_metadata = tx_rtt['metaData']['items']
+            ml_metadata = tx_ml['metaData']['items']
+            
             total_hei = int(sum(float(row[-1]) for row in pmtct_hei['rows']))
             total_eid = int(sum(float(row[-1]) for row in pmtct_eid['rows']))
-            transformed_rows = []
-            #HEI data transformation
-            #transformed = DataTransformer.transformer(self,transformed_rows,hei_metadata,pmtct_hei)
-            transformed = DataTransformer.transformer(self,transformed_rows,eid_metadata,pmtct_eid)
+            total_rtt = int(sum(float(row[-1]) for row in tx_rtt['rows']))
+            total_ml = int(sum(float(row[-1]) for row in tx_ml['rows']))
+            # transformed_rows = []
+            # # HEI data transformation
+            # transformed = DataTransformer.transformer(self, transformed_rows, ml_metadata, tx_ml)
+            
             # # Print transformed rows
-            for row in transformed:
-                print(f'TRANSFORMATION: ${row}')    
+            # for row in transformed:
+            #     print(f'TRANSFORMATION: ${row}')    
 
+            # VLS Calculations
+            calculator = VLPercentageCalculator(vls)
+        
+            # Get the rows object
+            # rows = calculator.get_rows()
+            # if rows is not None:
+            #     print("Rows object:", rows)
+            
+            # Calculate percentage
+            percentage = calculator.calculate_percentage()
+            if percentage is not None:
+                print(f"Percentage of ART clients with VL <1,000 copies/ml: {percentage}%")
+            else:
+                print("Could not calculate percentage due to missing or invalid data")
+
+            # Record end time and calculate duration
+            end_time = time.time()
+            loading_time = round(end_time - start_time, 2)  # Duration in seconds, rounded to 2 decimal places
+
+            # Update context with loading time
             context = {
-                'results':response,
-                'tx_curr_data':tx_curr_value,
-                'pmtct_data':pmtct_value,
-                'pmtct_hei':total_hei,
-                'pmtct_eid':total_eid
+                'results': response,
+                'tx_curr_data': tx_curr_value,
+                'tx_rtt_data': total_rtt,
+                'tx_ml_data': total_ml,
+                'pmtct_data': pmtct_value,
+                'pmtct_hei': total_hei,
+                'pmtct_eid': total_eid,
+                'vlc': vl_value,
+                'vls': percentage,
+                'loading_time': loading_time  # Add loading time to context
             }
+
+            return self.render_to_response(context)
 
         except requests.exceptions.RequestException as e:
             logger.error(f"DHIS2 connection failed: {e}")
             return Response({'error': 'DHIS2 unreachable'}, status=503)
-    
-        return render(request, self.template_name,context=context)
 
 class ProfileView(TemplateView, APIView):
     template_name = 'profile/profile.html'

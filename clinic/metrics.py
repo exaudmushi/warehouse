@@ -131,5 +131,108 @@ class MetricsData:
                 
         except requests.RequestException as e:
             return f"Request failed: {str(e)}"
+        
+    def get_VLC(self, token):
+        
+        VL = "analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q"
+        url = f"{settings.BASE_URL}/{VL}"
 
+        # Set headers with Bearer token
+           # Set headers with Bearer token
+        headers = {
+            "Authorization": f"Bearer {token['access_token']}",
+            "Content-Type": "application/json"
+        }
+        try:
+            # Send GET request
+            response = requests.get(url, headers=headers)
+            
+            # Check if request was successful
+            if response.ok:
+               
+                return response.json()  # Return JSON response
+            else:
+                return f"Error {response.status_code}: {response.text}"  # Return error details
+                
+        except requests.RequestException as e:
+            return f"Request failed: {str(e)}"
+        
+    def get_VLS(self, token):
+        
+        VLS = "analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM"
+        url = f"{settings.BASE_URL}/{VLS}"
+
+        # Set headers with Bearer token
+           # Set headers with Bearer token
+        headers = {
+            "Authorization": f"Bearer {token['access_token']}",
+            "Content-Type": "application/json"
+        }
+        try:
+            # Send GET request
+            response = requests.get(url, headers=headers)
+            
+            # Check if request was successful
+            if response.ok:
+               
+                return response.json()  # Return JSON response
+            else:
+                return f"Error {response.status_code}: {response.text}"  # Return error details
+                
+        except requests.RequestException as e:
+            return f"Request failed: {str(e)}"
+        
+    def getTX_RTT(self, token):
+        
+        RTT = "analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true"
+        url = f"{settings.BASE_URL}/{RTT}"
+
+        # Set headers with Bearer token
+           # Set headers with Bearer token
+        headers = {
+            "Authorization": f"Bearer {token['access_token']}",
+            "Content-Type": "application/json"
+        }
+        try:
+            # Send GET request
+            response = requests.get(url, headers=headers)
+            
+            # Check if request was successful
+            if response.ok:
+               
+                return response.json()  # Return JSON response
+            else:
+                return f"Error {response.status_code}: {response.text}"  # Return error details
+                
+        except requests.RequestException as e:
+            return f"Request failed: {str(e)}"
+        
+
+    def getTX_ML(self, token):
+        
+        ML = "analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true"
+        url = f"{settings.BASE_URL}/{ML}"
+
+        # Set headers with Bearer token
+           # Set headers with Bearer token
+        headers = {
+            "Authorization": f"Bearer {token['access_token']}",
+            "Content-Type": "application/json"
+        }
+        try:
+            # Send GET request
+            response = requests.get(url, headers=headers)
+            
+            # Check if request was successful
+            if response.ok:
+               
+                return response.json()  # Return JSON response
+            else:
+                return f"Error {response.status_code}: {response.text}"  # Return error details
+                
+        except requests.RequestException as e:
+            return f"Request failed: {str(e)}"
+        
+        
+   
         

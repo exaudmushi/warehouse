@@ -8578,3 +8578,1944 @@ https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dim
 Starting new HTTPS connection (1): play.mhrpimpact.org:443
 https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\templates\calculated.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\templates\calculated.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 109, in get
+    'vls':percentage + "%"
+          ~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:LNkC0jFc9aJ&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 859
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:NyEeDEQB02w&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 876
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 9581
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:NyEeDEQB02w&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 876
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 9581
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:NyEeDEQB02w&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 876
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 9581
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 68, in get
+    tx_ml = MetricsData.getTX_ML(self,token)
+            ^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MetricsData' has no attribute 'getTX_ML'. Did you mean: 'getTX_RTT'?
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 9581
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 113, in get
+    'tx_ml_data':tx_ml_value,
+                 ^^^^^^^^^^^
+NameError: name 'tx_ml_value' is not defined. Did you mean: 'tx_rtt_value'?
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 9581
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 9581
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 7703
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 87, in get
+    transformed = DataTransformer.transformer(self,transformed_rows,rtt_metadata,tx_rtt)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\transformer.py", line 7, in transformer
+    data_element_id, category_option_combo_id, period_id, org_unit_id, value = row
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 5, got 4)
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:uFKiADzIOZA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 9581
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vW37o1JVp5Z&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 409 172
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 77, in get
+    ml_metadata = tx_ml['metaData']['items']
+                  ~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 69, in get
+    tx_curr_value = tx_curr['rows'][0][3]
+                    ~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+Not Found: /favicon.ico
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 69, in get
+    tx_curr_value = tx_curr['rows'][0][3]
+                    ~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 69, in get
+    tx_curr_value = tx_curr['rows'][0][3]
+                    ~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 71, in get
+    pmtct_value = pmtct['rows'][0][3]
+                  ~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 71, in get
+    pmtct_value = pmtct['rows'][0][3]
+                  ~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 71, in get
+    pmtct_value = pmtct[0][0][3]
+                  ~~~~~~~~~~~^^^
+IndexError: string index out of range
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 75, in get
+    hei_metadata = pmtct_hei['metaData']['items']
+                   ~~~~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 401 None
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:vl9EWSS4eqM&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 409 172
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 77, in get
+    ml_metadata = tx_ml['metaData']['items']
+                  ~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py", line 60, in get
+    token = request.session['app_token']
+            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'app_token'
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Using proactor: IocpProactor
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'coroutine'>`
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Internal Server Error: /clinic/app/
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\asgiref\sync.py", line 254, in __call__
+    return call_result.result()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\asgiref\sync.py", line 331, in main_wrap
+    result = await self.awaitable(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\decorators\csrf.py", line 60, in _view_wrapper
+    return await view_func(request, *args, **kwargs)
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 517, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\Python\Python313\site-packages\rest_framework\views.py", line 429, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected a `Response`, `HttpResponse` or `StreamingHttpResponse` to be returned from the view, but received a `<class 'coroutine'>`
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+C:\Users\user\Documents\GitHub\warehouse\warehouse\clinic\metrics.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "POST /uaa/oauth/token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/users/?query=emushi HTTP/1.1" 200 117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:CW9ROzDWRiq&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 3568
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:rCeCpvmTzK4&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 4245
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:A9o8ET4K9wH&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2752
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:Jm6ETCXn8kA&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 1888
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:E17XaLqwIDy&dimension=pe:202410&dimension=ou:wI14U2j7n7q HTTP/1.1" 200 826
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics.json?dimension=dx:IM8BcMFo1Qg;Uqs0gTxgKoN&dimension=pe:202410&dimension=ou:wI14U2j7n7q&aggregationType=SUM HTTP/1.1" 200 11117
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:wsil08OIfn5&dimension=co&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 2084
+Starting new HTTPS connection (1): play.mhrpimpact.org:443
+https://play.mhrpimpact.org:443 "GET /api/analytics?dimension=dx:q936vSz3mXP&dimension=co:&dimension=pe:202410&dimension=ou:wI14U2j7n7q&displayProperty=NAME&includeMetadataDetails=true HTTP/1.1" 200 93085
+Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Not Found: /dashboard/plhiv
+Not Found: /favicon.ico

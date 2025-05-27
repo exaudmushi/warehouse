@@ -3,7 +3,7 @@
 {% block app_content %}
 
   {% for userinfo in results.users %}
-    
+  <div id="loading-state">
   <div class="row align-items-center">
     <!-- Welcome Message -->
     <div class="col-md-6">
@@ -125,7 +125,7 @@
     <div class="col-md-3 col-xl-3">
       <div class="card bg-c-purple order-card">
         <div class="card-block">
-          <h6 class="m-b-20"><center><b></b>TX_PVLS</b></center></h6>
+          <h6 class="m-b-20"><center><b></b>VL</b></center></h6>
           <table class="table table-responsive mx-3">
             <thead>
             </thead>
@@ -135,7 +135,28 @@
                 <td>CTC2</td>
               </tr>
               <tr>
+                <td><b>{{ vlc }}</b></td>
                 <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-xl-3">
+      <div class="card bg-c-magenta order-card">
+        <div class="card-block">
+          <h6 class="m-b-20"><center><b></b>VLS</b></center></h6>
+          <table class="table table-responsive mx-3">
+            <thead>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IMPACT</td>
+                <td>CTC2</td>
+              </tr>
+              <tr>
+                <td><b>{{ vls }} %</b></td>
                 <td></td>
               </tr>
             </tbody>
@@ -156,7 +177,7 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td></td>
+                <td><b>{{ tx_rtt_data }}</b></td>
                 <td></td>
               </tr>
             </tbody>
@@ -177,35 +198,15 @@
                 <td>CTC2</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
+                <td><b>{{tx_ml_data}}</b></td>
+                <td></td>   
               </tr>
             </tbody>
           </table>
         </div>
       </div>
     </div>
-        <div class="col-md-3 col-xl-3">
-      <div class="card bg-c-magenta order-card">
-        <div class="card-block">
-          <h6 class="m-b-20"><center><b></b>CACX</b></center></h6>
-          <table class="table table-responsive mx-3">
-            <thead>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IMPACT</td>
-                <td>CTC2</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
+
   </div>
   <div>
     <div class="row">
@@ -228,6 +229,7 @@
       </div>
     </div>
   </div>
+</div>
   {% endfor %}
   <!-- Session Timeout Modal -->
   <div class="modal fade" id="sessionTimeoutModal" tabindex="-1" aria-labelledby="sessionTimeoutModalLabel" aria-hidden="true">
@@ -243,32 +245,44 @@
           </div>
       </div>
   </div>
+  <!-- Data Loading Modal -->
+    <div class="modal fade" id="dataLoadingModal" tabindex="-1" role="dialog" aria-labelledby="dataLoadingModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dataLoadingModalLabel">Data Loader</h5>
+                </div>
+                <div class="modal-body">
+                    {% if loading_time %}
+                        <p>Data loaded successfully in {{ loading_time }} seconds.</p>
+                    {% else %}
+                        <p>Please wait, we are getting things ready for you.</p>
+                        <div class="loader"></div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
  <!-- Session Timeout Modal Ends -->
 
   <!-- Include Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
-       // Function to set session timeout
-    async function  setSessionTimeout() {
-        // expiresAt is a Unix timestamp in seconds
-        const expirationTime = Math.floor(Date.now() / 1000) + (30 * 60) // Session is active for 30 minutes
-        const currentTime = Date.now();
-        const timeUntilExpiration = expirationTime - currentTime;
-
-        if (timeUntilExpiration > 0) {
+      const element = document.getElementById('loading-state');
+      element.style.filter = 'blur(5px)';
+      document.addEventListener('DOMContentLoaded', function() {
+            // Initialize and show the modal when the page loads
+            const loadingModal = new bootstrap.Modal(document.getElementById('dataLoadingModal'), {
+                backdrop: 'static', // Prevent closing by clicking outside
+                keyboard: false // Prevent closing with keyboard
+            });
+            loadingModal.show();
             setTimeout(() => {
-                // Show session timeout modal
-                const timeoutModal = new bootstrap.Modal(document.getElementById('sessionTimeoutModal'));
-                timeoutModal.show();
-
-                // Redirect to login page after 3 seconds
-                setTimeout(() => {
-                    timeoutModal.hide();
-                    window.location.href = "{% url 'home' %}"; // Adjust to your login URL name
-                }, 3000);
-            }, timeUntilExpiration);
-        }
-    }
-    setSessionTimeout()
+               loadingModal.hide();
+               element.style.filter = 'none';
+            },5000);
+        });
+     
     </script>
 {% endblock %}

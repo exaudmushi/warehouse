@@ -34,7 +34,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="successModalLabel">Login Successful</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+               
             </div>
             <div class="modal-body">
                 Please! You will be redirected to the dashboard shortly.
@@ -92,11 +92,9 @@
             // Set timeout to close modal and redirect after 3 seconds
             setTimeout(() => {
                 successModal.hide();
-                localStorage.setItem('username', username)
-                window.location.href = "{% url 'clinic:dashboard' %}";
-            }, 4000);
-
-
+            }, 3000);
+            localStorage.setItem('username', username)
+            window.location.href = "{% url 'clinic:dashboard' %}";
         } catch (error) {
             // Error: Display Bootstrap alert
             errorDiv.innerHTML = error.message;
